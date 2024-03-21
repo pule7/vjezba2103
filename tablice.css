@@ -1,0 +1,35 @@
+table {
+    width: 400px;
+    height: 400px;
+    border: 2px solid blue;
+    border-collapse: collapse;
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+.kontejner {
+    display: flex;
+}
+
+td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.cel {
+    background-color: yellow;
+}
+
+.cel2 {
+    background-color: yellow;
+}
+
+.cel2:hover {
+    background-color: red;
+}
